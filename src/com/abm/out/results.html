@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Results</title>	
+	<link rel="stylesheet" type="text/css" href="css/application.css">
+</head>
+<body>
+	<!-- <canvas id="serotype1" width="640" height="480"></canvas> -->	
+	<div id="ser1" style="max-width: 960px; height: 640px;"></div>
+	<div class="col-960">
+		<div id="params">
+			<ul id="params-list">
+			</ul>
+		</div>
+		<div id="options">
+			<form id="options-form">
+				<p>Show Options</p>
+				<input type="radio" name="show" value="all" checked>All<br>
+				<input type="radio" name="show" value="all-in-one">All-in-one<br>
+				<input type="radio" name="show" value="susceptible">Susceptible<br>
+				<input type="radio" name="show" value="infected">Infected<br>
+				<input type="radio" name="show" value="resistant">Resistant<br>
+			</form>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/results.js"></script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/globalize.min.js"></script>
+	<script type="text/javascript" src="js/dx.chartjs.js"></script>
+	<script type="text/javascript" src="js/application.js"></script>	
+	<script type="text/javascript" src="js/visualize-results.js"></script>
+</body>
+</html>

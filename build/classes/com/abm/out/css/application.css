@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'Raleway';
+	src: url('../fonts/Raleway-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Raleway Bold';
+	src: url('../fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+	font-family: 'QuattrocentoSans Regular';
+	src: url('../fonts/QuattrocentoSans-Regular.ttf');
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#ser1 {
+	margin: 0 auto;
+	z-index: 0;
+}
+
+#params {
+	font-family: "QuattrocentoSans Regular";
+	font-size: 0.75em;
+	color: white;
+	width: 130px;
+	height: 122px;
+	background-color: #389ADC;
+	z-index: 100;
+	position: relative;
+	top: -400px;
+	right: 0;
+	display: block;
+	float: right;
+	cursor: pointer;
+	overflow: hidden;
+	opacity: 0.5;
+	transition: all 0.2s ease-in;
+}
+
+#params:hover {
+	opacity: 1;
+}
+
+#params ul {
+	margin: 0;
+	padding: 0.75em;
+	list-style: none;
+}
+
+.col-960 {
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+}
+
+#options {
+	font-family: "QuattrocentoSans Regular";
+	font-size: 0.75em;
+	color: white;
+	width: 130px;
+	height: 142px;
+	background-color: #389ADC;
+	z-index: 100;
+	position: relative;
+	top: -240px;
+	right: -128px;
+	/*display: block;*/
+	float: right;
+	cursor: pointer;
+	overflow: hidden;
+	opacity: 0.5;
+	transition: all 0.2s ease-in;
+}
+
+#options p {
+	text-align: center;
+}
+
+#options:hover {
+	opacity: 1;
+}
